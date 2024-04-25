@@ -34,7 +34,7 @@ function JobListings({ isHome = false }) {
                 </h2>
                 {/* {jobListings.map((job) => "Note: 3 jobs will appear"}( */}
                 {loading ? (
-                    <ClipLoader icon={true} loading={loading} />
+                    <ClipLoader loading={loading} />
                 ) : (
                     <>
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
